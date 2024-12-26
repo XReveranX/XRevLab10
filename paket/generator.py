@@ -1,12 +1,7 @@
-import typer
+def func(N):
+    print(N)
 
-app = typer.Typer()
-
-def func(x):
-    print(x)
-
-@app.command
-def besk_posl(Num_of_repeat: int):
+def besk_posl(Num_of_repeat):
     numb = 2
     while True:
         b=0

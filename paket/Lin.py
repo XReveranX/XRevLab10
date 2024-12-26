@@ -1,9 +1,4 @@
-import typer
-
-app = typer.Typer()
-
-@app.command
-def linearize_rec(massive: list):     #massive - массив для линериализации
+def linearize_rec(massive):     #massive - массив для линериализации
     otv = []
     for key_1 in massive:
         if  isinstance(key_1, list):
